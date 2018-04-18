@@ -16,6 +16,10 @@
 		A87877432086E96D0004F279 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A87877422086E96D0004F279 /* main.m */; };
 		A878774D2086E96E0004F279 /* KGSearchViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A878774C2086E96E0004F279 /* KGSearchViewTests.m */; };
 		A87877582086E96E0004F279 /* KGSearchViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A87877572086E96E0004F279 /* KGSearchViewUITests.m */; };
+		A87877672086EB6B0004F279 /* KGSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = A87877662086EB6B0004F279 /* KGSearchView.m */; };
+		A878776B208749570004F279 /* KGSearchBarTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8787769208749570004F279 /* KGSearchBarTableViewCell.m */; };
+		A878776C208749570004F279 /* KGSearchBarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A878776A208749570004F279 /* KGSearchBarTableViewCell.xib */; };
+		A878776E208749B10004F279 /* KGSearchBarImage.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A878776D208749B10004F279 /* KGSearchBarImage.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,12 @@
 		A87877532086E96E0004F279 /* KGSearchViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KGSearchViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A87877572086E96E0004F279 /* KGSearchViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KGSearchViewUITests.m; sourceTree = "<group>"; };
 		A87877592086E96E0004F279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A87877652086EB6B0004F279 /* KGSearchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGSearchView.h; sourceTree = "<group>"; };
+		A87877662086EB6B0004F279 /* KGSearchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KGSearchView.m; sourceTree = "<group>"; };
+		A8787768208749560004F279 /* KGSearchBarTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGSearchBarTableViewCell.h; sourceTree = "<group>"; };
+		A8787769208749570004F279 /* KGSearchBarTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KGSearchBarTableViewCell.m; sourceTree = "<group>"; };
+		A878776A208749570004F279 /* KGSearchBarTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KGSearchBarTableViewCell.xib; sourceTree = "<group>"; };
+		A878776D208749B10004F279 /* KGSearchBarImage.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = KGSearchBarImage.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +117,12 @@
 				A87877312086E96B0004F279 /* AppDelegate.m */,
 				A87877332086E96B0004F279 /* ViewController.h */,
 				A87877342086E96B0004F279 /* ViewController.m */,
+				A87877652086EB6B0004F279 /* KGSearchView.h */,
+				A87877662086EB6B0004F279 /* KGSearchView.m */,
+				A8787768208749560004F279 /* KGSearchBarTableViewCell.h */,
+				A8787769208749570004F279 /* KGSearchBarTableViewCell.m */,
+				A878776A208749570004F279 /* KGSearchBarTableViewCell.xib */,
+				A878776D208749B10004F279 /* KGSearchBarImage.xcassets */,
 				A87877362086E96B0004F279 /* Main.storyboard */,
 				A878773C2086E96D0004F279 /* Assets.xcassets */,
 				A878773E2086E96D0004F279 /* LaunchScreen.storyboard */,
@@ -239,6 +255,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A87877402086E96D0004F279 /* LaunchScreen.storyboard in Resources */,
+				A878776C208749570004F279 /* KGSearchBarTableViewCell.xib in Resources */,
+				A878776E208749B10004F279 /* KGSearchBarImage.xcassets in Resources */,
 				A878773D2086E96D0004F279 /* Assets.xcassets in Resources */,
 				A87877382086E96B0004F279 /* Main.storyboard in Resources */,
 			);
@@ -265,6 +283,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A87877672086EB6B0004F279 /* KGSearchView.m in Sources */,
+				A878776B208749570004F279 /* KGSearchBarTableViewCell.m in Sources */,
 				A87877352086E96B0004F279 /* ViewController.m in Sources */,
 				A87877322086E96B0004F279 /* AppDelegate.m in Sources */,
 				A87877432086E96D0004F279 /* main.m in Sources */,

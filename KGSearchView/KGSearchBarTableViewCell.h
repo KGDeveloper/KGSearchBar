@@ -21,6 +21,20 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol KGSearchBarTableViewCellDelegate <NSObject>
+
+- (void)delectHistory:(NSString *)history;
+
+@end
+
 @interface KGSearchBarTableViewCell : UITableViewCell
+/**
+ 搜索记录
+ */
+@property (weak, nonatomic) IBOutlet UILabel *textLbael;
+/**
+ 删除搜索历史
+ */
+@property (nonatomic,assign) id<KGSearchBarTableViewCellDelegate>delegate;
 
 @end

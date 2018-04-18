@@ -28,6 +28,12 @@
     // Initialization code
 }
 
+- (IBAction)delectClick:(UIButton *)sender {
+    if ([self.delegate respondsToSelector:@selector(delectHistory:)]) {
+        [self.delegate delectHistory:self.textLbael.text];
+    }
+}
+
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
 
